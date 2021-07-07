@@ -29,6 +29,7 @@ code {
   background-color: rgb(60, 82, 179);
   margin-left: 2rem;
   margin-top: 3rem;
+  user-select: none;
 }
 
 .btn {
@@ -47,5 +48,6 @@ code {
 }
 
 .btn:hover {
+  cursor: pointer;
   box-shadow: 0 0 0 4px rgb(255, 255, 255), 5px 8px 3px 5px black;
 }
